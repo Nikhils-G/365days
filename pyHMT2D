@@ -1,0 +1,15 @@
+There are several ways to install pyHMT2D.
+
+Install from pip
+
+$ pip install pyHMT2D
+Directly install from GitHub with pip
+
+$ pip install git+https://github.com/psu-efd/pyHMT2D.git
+Clone the GitHub repository to your local machine and add the local pyHMT2D’s directory to your Python path
+
+$ git clone https://github.com/psu-efd/pyHMT2D.git
+If you use this approach to install pyHMT2D, in order to make the Python Interpreter aware of pyHMT2D, you need to add the path to pyHMT2D to the PYTHONPATH environment variable. There are several ways to do it. See the user manual for details. One example is to add the path in your Python code.
+
+import sys
+sys.path.append("/path/to/pyHMT2D")
