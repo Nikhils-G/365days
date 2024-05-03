@@ -1,0 +1,172 @@
+12/05/2024     
+DBMS
+Database Management System (DBMS) is system software for easy and efficient handling of data. It provides reliable data processing and management facilities. A database management system is needed for data access within the company. It helps manage huge amounts of data with ease. It is time-saving and highly accurate. Following are a few Capgemini Interview Questions on DBMS.
+ 
+
+1. What are constraints in SQL?
+Constraints specify the rules that concern the data stored in a database table. It can be applied for single or multiple fields in an SQL table during the creation of the table or after using the ALTER TABLE command.
+
+NOT NULL – Restricts NULL values in a tuple
+CHECK – Verify a given condition.
+DEFAULT – Assigns a default value if no value has been specified for the field.
+UNIQUE – Ensure that all values are uniques for a field.
+INDEX – Indexes a field to facilitate faster record retrieval.
+PRIMARY KEY – Uniquely identifies each record in a table.
+FOREIGN KEY – Ensures referential integrity of two tables. 
+ 
+2. What is the need for normalisation in a database?
+Normalisation is the process of analysing relational schemas based on their functional dependencies. It involves splitting up data into numerous tables to remove redundancy. It eliminates the unnecessary repeated information, allowing a concise and smaller database to be maintained. It ensures high accuracy and fast execution of queries.
+ 
+
+3. What are indexes in SQL server?
+An index is used to speed up the performance and execution of SQL queries. This is done by reducing the number of data pages in the database that are to be visited/scanned. 
+
+Unique and non-unique indexes.
+Clustered and non-clustered indexes.
+Improving performance with clustering indexes.
+Differences between primary key or unique key constraints and unique indexes.
+Bidirectional indexes.
+Partitioned and nonpartitioned indexes.
+ 
+4. What are ACID properties?
+ACID properties define the desirable properties of a transaction in DBMS. Atomicity, Consistency, Isolation, and Durability. These properties prove to be very helpful in allowing a safe and secure way of sharing and manipulating data amongst multiple users.
+See more, Kotlin Interview Questions
+ 
+
+5. What is the difference between UNION and UNION ALL?
+The UNION method is used to aggregate the results of two or more SQL SELECT queries. The number of columns and their data types must be the same for a union operation. Duplicate rows are removed from the result during the UNION operation. 
+Union ALL operation is similar to the Union operation. The only difference is that it returns the resulting relation without sorting the data or deleting duplicates.
+
+Programming
+Programming Language is a vocabulary and collection of rules that can command a computer, application or device to work according to the given code. Programing languages enable us to write efficient programs and develop solutions to reduce human workload. It is used to automate, maintain, assemble, measure and interpret the processing of the Data and Information. Programming is the base of all the technologies we use today. Following are a few Capgemini Interview Questions on Programming.
+ 
+
+6. Give the difference between getch() and getche().
+getch() is a function that reads characters from the keyboard but does not display it on the screen. It works without using any buffers.
+getche() uses a buffer to read characters from the keyboard and display the information on the screen. 
+ 
+
+7. What is Java String Pool?
+String Literals in Java are stored in String Pools. It is used to increase performance and decrease memory overhead. String allocation is usually costly in terms of time and memory, so the JVM performs some operations while initializing the strings to decrease both costs. For every string literal created, the JVM checks the string literal pool first. If the string already exists, a reference to the pooled instance is returned. 
+ 
+
+8. Explain the concept of shallow copy and deep copy in Java.
+Shallow copy involves copying an object that is used by default in cloning. The fields of an X are copied to a new object Y such that, object Y will point to the same location as X. Any changes made to object X will be reflected in Y.
+A deep copy duplicates all fields and the allocated memory that every field points to. So the values of objects X and Y are independent of each other.
+ 
+
+9. What is the difference between range and xrange in Python?
+The range() function returns a range object which is like a type of iterable. It exists in Python2 and Python3.
+The xrange() function returns a generator object that can be used to display numbers through looping. It is not available in Python3.
+ 
+
+10. What are Friend classes and functions?
+A Friend class can access private and protected members of another class that is declared as a Friend. So, it is capable of accessing protected as well as private members of the class without causing any error.  Friend functions can also access the members of a class even if it is not within the scope.
+ 
+
+11. What is a Dangling pointer?
+Dangling pointers are pointers that point to a memory location that has been deleted or freed. Dangling pointers may be formed due to object destruction or when an object’s incoming reference is deleted or deallocated.
+ 
+
+12. What are applet programs?
+Applets are Java applications that could be installed into a web page to run within the web browser and operate on the client-side. It is usually embedded within an HTML page using the APPLET or OBJECT tag and run on a web server. They help make the website more productive, interactive and entertaining.
+
+Data Structures
+Data Structures are the programmatic way of storing data efficiently. All enterprise applications use different types of data structures in one or the other way. The idea is to reduce the space and time complexities of various tasks. An algorithm is a step-by-step procedure that defines a set of instructions to be executed in a certain order to get the desired output. They are usually independent of their underlying languages. It helps reduces coding costs & enhances data accuracy, which is the ultimate goal of organizations. Following are a few Capgemini Interview Questions on Data Structures
+ 
+
+13. What is the advantage of using a Trie over a Binary Search Tree?
+ 
+
+Tries are quicker to lookup keys. Looking up a key of length m takes O(m) time in the worst-case scenario. Lookups depend on the depth of the tree, which is logarithmic to the number of keys if it is balanced. A BST does O(log n) key comparisons and takes O(m log n) time in the worst-case scenario.
+ 
+Nodes are shared between keys with common sub-sequences. Tries with a large number of short keys are more efficient.
+ 
+Tries facilitate longest-prefix matching and assist in discovering the key with the longest possible prefix of unique characters.
+ 
+The length of the key is equal to the number of internal nodes from root to leaf. As a result, balancing the tree isn't an issue.
+ 
+14. What is the disadvantage of implementing Queues using arrays?
+ 
+Even an empty queue has many enqueue and dequeue operations. So, we may not be able to insert entries at all times (as in the case of linear increment of front and rear indices). This problem is solved by implementing a circular queue.
+ 
+There may be cases where we need to extend the queue to insert additional elements. Since it is almost impossible to extend the size of an array to implement a queue, determining a suitable array size is always an issue.
+ 
+15. Why choose Binary Search Tree over AVL tree?
+ 
+AVL Tree will require additional memory as each node must keep track of its balance factor.
+ 
+Each operation in an AVL Tree has the potential to slow down as it needs to maintain the balance factor and perform rotations in some cases.
+Web Development
+Everything and everyone on this planet is connected by the internet. Be it communication, gaining information, shopping or travelling. Everything involves the use of web pages or websites. Thus, Web development plays an important role in delivering information and services to customers all over the world. While web design mainly pertains to the design of elements in a website, web development also includes web content development, client and server-side scripting, server and configurations security as well as e-commerce applications. Following are a few Capgemini Interview Questions on Web development.
+ 
+
+16. What are the different validators in ASP.NET?
+ASP.NET validators help validate the user input data and ensure that useless, unauthenticated, or contradictory data does not get stored.
+
+RequiredFieldValidator.
+RangeValidator.
+CompareValidator.
+RegularExpressionValidator.
+CustomValidator.
+ValidationSummary.
+ 
+17. What is HTML?
+HTML stands for HyperText Markup Language. It is a standard markup language for creating Web pages. HTML describes the structure of a Web page and consists of a series of elements to tell the browser how to display the given content.
+ 
+
+18. What are selectors in CSS?
+CSS selectors are used to select the content to be styled. Selectors are part of the CSS ruleset. They select HTML elements by id, class, type, attribute etc. There are several different types of selectors in CSS.
+
+CSS Element Selector
+CSS Id Selector
+CSS Class Selector
+CSS Universal Selector
+CSS Group Selector
+ 
+20. What are the ASP.NET security controls?
+ 
+<asp:Login>: Provides a standard login to allow users to enter their credentials.
+ 
+<asp:LoginName>: Displays the name of the logged-in user.
+ 
+<asp:LoginStatus>: Displays the user’s authentication.
+ 
+<asp:LoginView>: Provides various login views depending on the selected template
+ 
+<asp:PasswordRecovery>: Provides the website administrators to help users retrieve forgotten passwords.
+Must Read Web Developer Interview Questions
+
+Computer Networks
+Today, you can access your data from any device from anywhere. Computer networking is a massive boon to the communication system. Networking allows you to send and receive text messages and files in real-time. Information is continuously transferred from one place to another. Hence, it is important to ensure the security, authenticity and integrity of the information that is received or sent every time.Following are a few Capgemini Interview Questions on Computer Networks.
+ 
+
+21. What is networking?
+Networking refers to the interconnection of multiple devices, also known as hosts, that are connected using multiple paths to send or receive data. Networking comprises not only the design, construction and use of a network but also the management, maintenance and operation of the network infrastructure, software and policies.
+ 
+
+22. What is anonymous FTP?
+Anonymous file transfer protocol allows a user to move files anonymously from one computer to another. It operates at layer 7; anonymous FTP permits any anonymous external computer to access the FTP server without any password or user ID credentials. When a user accesses a file, they don’t need to identify themselves.
+ 
+
+23. What is a DNS forwarder?
+A DNS forwarder is a DNS server that forwards DNS queries for DNS names to external DNS servers. A forwarder is used with a DNS server when it receives DNS queries that cannot be resolved quickly. Therefore, it forwards these requests to external DNS servers for resolution. 
+ 
+
+24. Explain the role of dynamic host configuration protocol in network management?
+
+The network administrator uses the dynamic host configuration protocol to create a pool of IP addresses instead of going to each client computer to configure a static IP address. 
+
+These were some important Capgemini interview questions but your preparation doesn't end here to get better preparation guidance you can have a look at Capgemini interview Bundle.
+
+Frequently Asked Questions
+What is the general interview process of Capgemini?
+The first step in the interview process is a phone screening interview done by the recruitment team. Depending on the role you have applied for, your recruiter will share the interview steps and guide you. To assess your skills and abilities, you will be asked questions related to the technical skills and behaviours required to succeed in the role. Of course, specific questions will vary depending on the job.
+ 
+
+What are the important recruitment policies of Capgemini?
+If a candidate has previously applied for the drive, then he/she is not eligible to apply again for the next six months.
+ 
+The candidate should be an Indian citizen. Candidates from Bhutan & Nepal students can also work in India without obtaining any work-related VISA. 
+ 
+All other foreign nationals must have a work visa or an OCI / PIO card to work in India. Bhutan & Nepal nationals would also need to submit a Citizenship certificate or a Govt. ID Card in the absence of other documents (PIO/OCI/Work permit/passport).
