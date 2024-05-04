@@ -1,0 +1,11 @@
+class Chords:    
+    def __init__(self, key: str, quality: str) -> None:
+        self.key = key
+        self.quality = quality
+        s = ChromaticScale(key)
+        self.scale: dict[str, int] = s.scale
+    
+    @property
+    def notes(self):
+        ranges = ChordFormula.__getitem__(self.quality).value        
+        return [k for k, v in self.scale.items() if v in ranges]
