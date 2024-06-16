@@ -1,0 +1,15 @@
+Tasks and Functionalities of Data Mining
+Last Updated : 22 Aug, 2023
+Data Mining functions are used to define the trends or correlations contained in data mining activities. In comparison, data mining activities can be divided into 2 categories:
+
+1]Descriptive Data Mining: 
+
+This category of data mining is concerned with finding patterns and relationships in the data that can provide insight into the underlying structure of the data. Descriptive data mining is often used to summarize or explore the data, and it can be used to answer questions such as: What are the most common patterns or relationships in the data? Are there any clusters or groups of data points that share common characteristics? What are the outliers in the data, and what do they represent?
+Some common techniques used in descriptive data mining include:
+
+Cluster analysis: 
+This technique is used to identify groups of data points that share similar characteristics. Clustering can be used for segmentation, anomaly detection, and summarization.
+
+Association rule mining: 
+
+This technique is used to identify relationships between variables in the data. It can be used to discover co-occurring events or to identify patterns in transaction data.
