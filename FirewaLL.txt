@@ -1,0 +1,8 @@
+A Firewall is a hardware or software to prevent a private computer or a network of computers from unauthorized access, it acts as a filter to avoid unauthorized users from accessing private computers and networks. It is a vital component of network security. It is the first line of defense for network security. It filters network packets and stops malware from entering the user’s computer or network by blocking access and preventing the user from being infected. 
+
+Characteristics of Firewall
+Physical Barrier: A firewall does not allow any external traffic to enter a system or a network without its allowance. A firewall creates a choke point for all the external data trying to enter the system or network and hence can easily block access if needed.
+Multi-Purpose: A firewall has many functions other than security purposes. It configures domain names and Internet Protocol (IP) addresses. It also acts as a network address translator. It can act as a meter for internet usage.
+Flexible Security Policies: Different local systems or networks need different security policies. A firewall can be modified according to the requirement of the user by changing its security policies.
+Security Platform: It provides a platform from which any alert to the issue related to security or fixing issues can be accessed. All the queries related to security can be kept under check from one place in a system or network.
+Access Handler: Determines which traffic needs to flow first according to priority or can change for a particular network or system. specific action requests may be initiated and allowed to flow through the firewall.
