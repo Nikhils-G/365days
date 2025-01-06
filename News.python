@@ -1,0 +1,27 @@
+class NewsChannel:
+    def __init__(self, name, category, country, website):
+        self.name = name
+        self.category = category
+        self.country = country
+        self.website = website
+
+    def display_info(self):
+        print(f"Channel Name: {self.name}")
+        print(f"Category: {self.category}")
+        print(f"Country: {self.country}")
+        print(f"Website: {self.website}")
+        print("-" * 40)
+
+# List of news channels
+channels = [
+    NewsChannel("BBC News", "International", "UK", "https://www.bbc.com/news"),
+    NewsChannel("CNN", "International", "USA", "https://www.cnn.com"),
+    NewsChannel("Al Jazeera", "International", "Qatar", "https://www.aljazeera.com"),
+    NewsChannel("NDTV", "National", "India", "https://www.ndtv.com"),
+    NewsChannel("Fox News", "National", "USA", "https://www.foxnews.com"),
+]
+
+# Display the information of each channel
+print("News Channels Information:\n")
+for channel in channels:
+    channel.display_info()
