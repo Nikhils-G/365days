@@ -1,0 +1,108 @@
+Once you've renamed your GitHub repository to NikhilS, follow these steps to proceed:
+
+1. Clone the Repository
+Now that your repository is renamed on GitHub, clone it to your local machine:
+
+bash
+Copy
+Edit
+git clone https://github.com/Nikhils-G/NikhilS.git
+This will create a new folder called NikhilS in your current directory.
+
+2. Navigate to the Repository Folder
+Change to the newly cloned repository directory:
+
+bash
+Copy
+Edit
+cd NikhilS
+3. Track .mp4 Files with Git LFS
+If you haven’t already configured Git LFS, track .mp4 files:
+
+bash
+Copy
+Edit
+git lfs track "*.mp4"
+This creates or updates the .gitattributes file to handle .mp4 files with LFS.
+
+4. Add the .gitattributes File
+Stage the .gitattributes file for commit:
+
+bash
+Copy
+Edit
+git add .gitattributes
+5. Add the Video File
+Add your .mp4 file from the Downloads folder:
+
+bash
+Copy
+Edit
+git add "C:\Users\Nikhil Sukthe\Downloads\cant.mp4"
+6. Commit the Changes
+Commit the added files:
+
+bash
+Copy
+Edit
+git commit -m "Add cant.mp4 using Git LFS"
+7. Push Changes to GitHub
+Finally, push your changes to GitHub:
+
+bash
+Copy
+Edit
+git push origin main
+Replace main with your branch name if you're working on a different branch.
+
+Summary of Next Steps:
+Clone the renamed repository.
+Track .mp4 files with Git LFS.
+Add and commit your .mp4 file.
+Push the changes to GitHub.
+If anything goes wrong or you need more help, just let me know!
+
+
+
+
+
+
+
+You said:
+git add "C:\\Users\\Nikhil Sukthe\\Downloads\\cant.mp4"
+
+C:\Users\Nikhil Sukthe\NikhilS>git add "C:\Users\Nikhil Sukthe\Downloads\cant.mp4"
+fatal: C:\Users\Nikhil Sukthe\Downloads\cant.mp4: 'C:\Users\Nikhil Sukthe\Downloads\cant.mp4' is outside repository at 'C:/Users/Nikhil Sukthe/NikhilS'
+ChatGPT said:
+ChatGPT
+The error you're seeing indicates that Git is unable to add the file directly from outside the repository folder. To resolve this, you can either move the file into your repository or use relative paths to refer to the file within the repository folder. Here’s how to proceed:
+
+Option 1: Move the File into the Repository Folder
+Move the cant.mp4 file from your Downloads folder to the cloned repository folder (NikhilS).
+
+You can do this manually (using File Explorer) or via the command line:
+
+bash
+Copy
+Edit
+move "C:\Users\Nikhil Sukthe\Downloads\cant.mp4" "C:\Users\Nikhil Sukthe\NikhilS\cant.mp4"
+After moving the file, add it to Git:
+
+bash
+Copy
+Edit
+git add cant.mp4
+Commit the changes and push:
+
+bash
+Copy
+Edit
+git commit -m "Add cant.mp4 using Git LFS"
+git push origin main
+Option 2: Use Git Bash/Terminal in the Downloads Folder
+Alternatively, you can run Git commands directly from the Downloads folder. This way, Git will be able to track files even outside the repository folder. But this approach is a bit unconventional since it could affect how you manage your Git workflow.
+
+Recommended Approach:
+Moving the file into the repository folder is the most common and straightforward solution, as it keeps everything within the context of the repository.
+
+Let me know if you need more assistance!
